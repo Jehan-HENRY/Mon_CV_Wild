@@ -1,6 +1,51 @@
 body {
   background-color: rgb(104, 187, 285);
+  width: 960px;
+  margin: 0 auto;
+  font-family: Helvetica, Sans-Serif;
 }
-left-box {
-  position: floating-left;
+
+#left-box {
+  background-color: rgb(9, 30, 45);
+  color: white;
+  float: left;
+  padding: 10px;
+  width: 200px;
+  height: 715px;
+}
+
+.profil {
+  text-align: justify;
+  margin-top: 30px;
+}
+
+#right-box {
+  margin-left: 230px;
+}
+
+#experiences-box {
+  background-color: white;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+#studies-box {
+  background-color: white;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.photo {
+  width: 200px;
+  height: 200px;
+}
+
+ul {
+  padding: 15px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 300px;
+  position: relative;
 }
